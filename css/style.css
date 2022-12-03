@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    background-color: lightpink;
+}
+li, 
+h3 {
+    color: rgb(30, 50, 20);
+    ;
+ }
+ a {
+    text-decoration: none;
+ }
+ button {
+    cursor: pointer;
+ }
+
+#anchor{
+    color: fuchsia;
+}
+.list{
+    color: yellowgreen;
+    text-decoration: line-through;
+    font-size: 3rem;
+}
+.test-border {
+    border-style: inset;
+    border-color: black;
+    border-width: medium;
+    margin: 2rem;
+    padding: 2rem;
+    display: inline-block;
+}
+.btn {
+    margin: 2rem;
+    padding: 1rem 2rem;
+    border: 5px inset blue;
+    background-color: wheat;
+    border-radius: 10px 0 0 20px;
+    outline: orangered solid;
+}
+.btn:hover {
+    outline: fuchsia solid;
+}
+.alert {
+    margin: 2rem;
+    padding: 1rem 2rem;
+    border-top: 5px inset orangered;
+    background-color: wheat;
+}
+.container {
+    margin: 2rem 0;
+    background-color: blueviolet;
+    padding: 2rem 1rem;
+    width: 25%;
+    height: 25%;
+}
+.box {
+    position: relative;
+    margin: 5px;
+    border: 3px solid blue;
+    width: 200px;
+    height: 200px;
+}
+.sales {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.wendys-burger {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+}
+.learning-fixed-position {
+    border: 3px solid green;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+}

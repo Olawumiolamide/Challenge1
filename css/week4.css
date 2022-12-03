@@ -1,0 +1,23 @@
+.paragraph-pseudo::before{
+    content: open-quote;
+    color: brown;
+    font-size: 5rem;
+}
+.paragraph-pseudo::after{
+    content: close-quote;
+    color: brown;
+    font-size: 5rem;
+}
+.box{
+    background-color: yellow;
+    height: 400px;
+    width: 400px;
+}
+.box:hover {
+    opacity: 0.8;
+}
+.side {
+    background-color: palevioletred;
+    width: 200px;
+    
+}
